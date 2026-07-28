@@ -65,6 +65,11 @@ class View {
 	private $headless;
 
 	/**
+	 * The template for rendering
+	 */
+	private $template;
+
+	/**
 	 * The view constructor.
 	 *
 	 * @param Automad $Automad

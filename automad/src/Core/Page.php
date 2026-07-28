@@ -71,6 +71,11 @@ class Page {
 	public $tags = array();
 
 	/**
+	 * The hidden state of the page.
+	 */
+	public $hidden;
+
+	/**
 	 * Set main properties.
 	 *
 	 * @param array $data

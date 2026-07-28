@@ -149,7 +149,7 @@ class Gallery extends AbstractBlock {
 
 		// Adding styles for devices smaller than width.
 		$maxWidth = $pixelWidth * 1.75;
-		$style = "<style scoped>@media (max-width: ${maxWidth}px) { .am-gallery-masonry { grid-template-columns: 1fr; } }</style>";
+		$style = "<style scoped>@media (max-width: {$maxWidth}px) { .am-gallery-masonry { grid-template-columns: 1fr; } }</style>";
 
 		$cleanBottom = '';
 

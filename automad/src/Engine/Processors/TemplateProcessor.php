@@ -67,6 +67,11 @@ class TemplateProcessor {
 	private $Runtime;
 
 	/**
+	 * The ContentProcessor instance.
+	 */
+	private $ContentProcessor;
+
+	/**
 	 * The template processor constructor.
 	 *
 	 * @param Automad $Automad
